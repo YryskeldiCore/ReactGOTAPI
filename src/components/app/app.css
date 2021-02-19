@@ -176,11 +176,11 @@
     }
 
     .greetings.text {
-        font-size: 14px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 32px;
     }
     h4 {
-        font-size: 0.8rem !important;
+        font-size: 1.2rem !important;
     }
 
     .app {
@@ -192,11 +192,11 @@
     }
 
     .headertitle {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .headerlink {
-        font-size: 14px;
+        font-size: 18px;
     }
     .container {
         position: relative;
@@ -226,11 +226,11 @@
     }
 
     .term {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .dynamicData {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
