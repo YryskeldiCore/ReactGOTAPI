@@ -26,7 +26,7 @@
 .video__media {
     position: absolute;
     width: 100%;
-    height: auto;
+    height: 1000px;
     top: 0;
     left: 0;
     z-index: 2;
@@ -36,11 +36,6 @@
 .app-height {
     height: 1100px !important;
 }
-
-
-
-
-
 
 .greetings {
     color: #fff;
@@ -60,4 +55,235 @@
 
 .col {
     opacity: 0.8;
+}
+
+@media (max-width: 1350px){
+    .video {
+        height: 700px;
+    }
+    .video__media {
+        height: 700px;
+        transform: scaleY(2.75); 
+    }
+    .greetings {
+        font-size: 32px;
+    }
+
+    .greetings.sub {
+        font-size: 20px;
+    }
+
+    .greetings.text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (max-width: 991px){
+    .video {
+        height: 1000px;
+    }
+    .video__media {
+        height: 1000px;
+        transform: scaleY(3.27); 
+    }
+    .greetings {
+        font-size: 32px;
+    }
+
+    .greetings.sub {
+        font-size: 20px;
+    }
+
+    .greetings.text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 1.2rem !important;
+    }
+
+    .app {
+        font-size: 14px;
+    }
+
+    .app-height {
+        height: 1200px !important;
+    }
+    .sc-bxivhb:hover {
+        transform: none;
+        background-color: #000;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .video {
+        height: 1200px;
+    }
+    .video__media {
+        height: 1200px;
+        transform: scaleY(4.38); 
+    }
+    .greetings {
+        font-size: 32px;
+    }
+
+    .greetings.sub {
+        font-size: 20px;
+    }
+
+    .greetings.text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 1rem !important;
+    }
+
+
+    .app-height {
+        height: 1300px !important;
+    }
+
+    .headertitle {
+        font-size: 18px;
+    }
+
+    .headerlink {
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width: 575px){
+    .video {
+        height: 1600px;
+    }
+    .video__media {
+        height: 1600px;
+        transform: scaleY(9.5); 
+    }
+    .greetings {
+        font-size: 32px;
+    }
+
+    .greetings.sub {
+        font-size: 20px;
+    }
+
+    .greetings.text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 0.8rem !important;
+    }
+
+    .app {
+        font-size: 14px;
+    }
+
+    .app-height {
+        height: 1550px !important;
+    }
+
+    .headertitle {
+        font-size: 14px;
+    }
+
+    .headerlink {
+        font-size: 14px;
+    }
+    .container {
+        position: relative;
+    }
+
+    .sc-bdVaJa {
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+    }
+    .sc-bwzfXH {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, 0);
+    }
+
+    .sc-htpNat {
+        position: absolute;
+        left: 50%;
+        top: 40px;
+        transform: translate(-50%, 0);
+    }
+
+    .container-2 {
+       padding-top: 100px;
+    }
+
+    .term {
+        font-size: 10px;
+    }
+
+    .dynamicData {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 360px){
+    .video {
+        height: 1800px;
+    }
+    .video__media {
+        height: 1800px;
+        transform: scaleY(10.6); 
+    }
+    .greetings {
+        font-size: 32px;
+    }
+
+    .greetings.sub {
+        font-size: 20px;
+    }
+
+    .greetings.text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 0.8rem !important;
+    }
+
+    .app {
+        font-size: 14px;
+    }
+
+    .app-height {
+        height: 1850px !important;
+    }
+
+    .headertitle {
+        font-size: 14px;
+    }
+
+    .headerlink {
+        font-size: 14px;
+    }
+
+    .container-2 {
+       padding-top: 100px;
+    }
+
+    .term {
+        font-size: 10px;
+    }
+
+    .dynamicData {
+        font-size: 10px;
+    }
 }

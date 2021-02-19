@@ -59,10 +59,14 @@ export default class App extends Component{
             return <ErrorMsg/>
         }        
 
+        const intro = document.querySelector('.intro'),
+              app = document.querySelector('.app'),
+              video = document.querySelector('.video');
+
         if(this.state.showRandomChar){
-            document.querySelector('.intro').classList.add('app-height');
-            document.querySelector('.app').classList.add('app-height');
-            document.querySelector('.video').classList.add('app-height');
+            intro.classList.add('app-height');
+            app.classList.add('app-height');
+            video.classList.add('app-height');
         } 
 
         const RandChar = this.state.showRandomChar ? <RandomChar getData={this.gotService.getCharacter}/>: null;
@@ -80,7 +84,7 @@ export default class App extends Component{
                             </Container>
                             <Container>
                                 <Row>
-                                    <Col lg={{size: 6, offset: 3}} className="col">
+                                    <Col lg={{size: 6, offset: 3}} xs={{ size: 8, offset: 2 }} className="col">
                                         {RandChar}
                                         <Button onClick={this.toggleRandomChar}>Toggle RandomChar</Button>
                                     </Col>
