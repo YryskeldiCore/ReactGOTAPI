@@ -7,7 +7,6 @@ import {withRouter} from 'react-router-dom';
 class BooksPage extends Component{
     gotService = new gotService();
 
-
     state = {
         selectedBook: null,
         error: false
@@ -36,7 +35,6 @@ class BooksPage extends Component{
                 onItemSelected={(itemId) => {
                     this.props.history.push(itemId)
                 }}
-                getData={this.gotService.getAllBooks}
                 renderItem={({name}) => `${name}`}/>
         )
     }

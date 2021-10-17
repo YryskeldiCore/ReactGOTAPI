@@ -47,9 +47,7 @@ export default class App extends Component{
 
     toggleRandomChar = () => {
         this.setState((state) => {
-            return {
-                showRandomChar : !state.showRandomChar
-                }
+            return {showRandomChar : !state.showRandomChar}
         });
     }
 

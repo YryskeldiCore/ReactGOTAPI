@@ -78,6 +78,9 @@ function ItemDetails({itemId, getData,children}){
 }
 
 export default ItemDetails;
+
+
+
 // ItemDetails.propTypes = {
 //     itemId: PropTypes.number
 // }
